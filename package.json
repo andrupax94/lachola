@@ -1,5 +1,5 @@
 {
-  "name": "lachula",
+  "name": "tuto01-next",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -9,15 +9,23 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@apollo/client": "^3.8.0-rc.2",
+    "@apollo/experimental-nextjs-app-support": "^0.5.1",
+    "@apollo/server": "^4.9.5",
+    "@as-integrations/next": "^3.0.0",
+    "flowbite": "^2.2.0",
+    "flowbite-react": "^0.7.0",
+    "next": "14.0.3",
     "react": "^18",
     "react-dom": "^18",
-    "next": "14.0.3"
+    "react-hook-form": "^7.48.2",
+    "react-icons": "^4.12.0"
   },
   "devDependencies": {
-    "autoprefixer": "^10.0.1",
-    "postcss": "^8",
-    "tailwindcss": "^3.3.0",
+    "autoprefixer": "^10.4.16",
     "eslint": "^8",
-    "eslint-config-next": "14.0.3"
+    "eslint-config-next": "14.0.3",
+    "postcss": "^8.4.31",
+    "tailwindcss": "^3.3.5"
   }
 }
